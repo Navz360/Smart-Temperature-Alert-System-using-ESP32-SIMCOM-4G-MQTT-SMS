@@ -67,7 +67,7 @@ void loop() {
 
     if (!smsSent || millis() - lastSMSTime >= resendInterval) {
       String msg = "🚨 ALERT: High Temperature Detected! 🌡️ Temp: " + String(temp, 1) + "°C 🌡️";
-      sendSMS("+919345611558", msg);
+      sendSMS("+91xxxxxxxxxx", msg);  //Please enter your mobile number 
       smsSent = true;
       lastSMSTime = millis();
     }
