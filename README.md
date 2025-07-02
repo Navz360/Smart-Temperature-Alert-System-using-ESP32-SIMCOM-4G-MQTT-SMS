@@ -84,7 +84,7 @@ Main code is available in [`SmartTempAlert.ino`](./SmartTempAlert.ino)
 
 > Below is a real SMS received when temperature exceeds threshold:
 
-![SMS Alert](.sms_alert.jpg)
+![SMS Alert](sms_alert.jpg)
 
 ---
 
